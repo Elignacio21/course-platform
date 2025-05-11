@@ -3,33 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Cursos</title>
 </head>
 <body>
-    <nav class="bar-nav">
-        <ul class="bar-nav__list">
-            <li class="list__item"><a class="list__link-item" href="">Home</a></li>
-            <li class="list__item"><a class="list__link-item" href="">Contact</a></li>
-            <li class="list__item"><a class="list__link-item" href="">About as</a></li>
-            <li class="list__item"><a class="list__link-item" href="">Comment</a></li>
-            <li class="list__item"><a class="list__link-item" href="">Teacher</a></li>
-            <li class="list__item"><a class="list__link-item" href="">Log in</a></li>
-        </ul>
-    </nav>
     <header>
-        <h1></h1>
-        <section class="courses">
-            <article class="courses__developer-Web">Seccion1</article>
-            <article class="courses__developer-java">Seccion2</article>
-            <article class="courses__developer-pyhton">Seccion3</article>
-        </section>
+        <div class="intro">
+            <h1 class="intro__title">Cursos de Programación</h1>
+            <p class="intreo__p">Elegir el curso de programación adecuado puede ser un poco abrumador al principio, ya que hay una gran variedad de opciones. Pero no te preocupes, vamos a orientarte en el ideal para lo que estás precisando.</p>
+        </div>
+        <div class="type__courses">
+            <h2>Tipos de cursos de programación y para qué sirven</h2>
+            <p>Para encontrar el curso indicado deberemos comenzar por conocer qué nos motiva aprender.</p>
+        </div>
     </header>
     <main>
-        <section class="card">
-            <h2 class="card__available"></h2>
-            <h3 class="card__title"></h3>
-            <p class="card__descripcion"></p>
-            <img class="card__img" src="" alt="">
+        <section class="start">
+            <div class="card">
+                <h2>Para aprender a Programar desde cero</h2>
+                <p>Son cursos orientado a personas sin experiencia previa en lenguajes de programación que desean adquirir conocimientos fundamentales. Lo más recomendable es que comiences con los lenguajes más ampliamente utilizados, que te darán una gran flexibilidad para continuar en la especialidad que elijas luego continuar desarrollándote.</p>
+                <!--La parte superior de bloque introduce el concepto y una imagen -->
+                <div class="card__desc">
+                    <div class="desc__title">
+                        <h3>Introduccion a pyhton</h3>
+                        <p>Es el lenguaje más claro e intuitivo con el que podrás desarrollar todo tipo de aplicaciones, desde sitios web hasta complejos procesamiento de datos.</p>
+                    </div>
+                    <div class="container">
+                        <img class="desc__img" src="assert/python-logoPe.jpg" alt="">
+                    </div>
+                </div>
+                <!--Footer de  el bloque se divide en difucultad,duracion y otro paratado para ver mas infromacion-->
+                <div class="card__footer">
+                    <div class="footer__details">
+                        <div class="details__block">
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <div class="barra"></div>
+                            <p class="paragraph">
+                                Nivel: 
+                                <br>
+                                <strong>Principiante</strong>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="footer__duration">
+                        <p class="paragraph">
+                                Duracion: 
+                                <br>
+                                <strong>4 Semanas</strong>
+                            </p>
+                    </div>
+                    <div class="more">
+                        Ver mas >
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
