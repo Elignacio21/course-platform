@@ -2,31 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="assert/book-Icon.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Cursos</title>
 </head>
 <body>
     <header>
+        <div class="container__into">
+            <div class="icon__container"><img class="icon" src="assert/book-Icon.png"></div>
+                <h2 class="into__p">CursosU</h2>
+        </div>
+    
         <div class="intro">
             <h1 class="intro__title">Cursos de Programación</h1>
-            <p class="intreo__p">Elegir el curso de programación adecuado puede ser un poco abrumador al principio, ya que hay una gran variedad de opciones. Pero no te preocupes, vamos a orientarte en el ideal para lo que estás precisando.</p>
+            <p class="intro__p">Elegir el curso de programación adecuado puede ser un poco abrumador al principio, ya que hay una gran variedad de opciones. Pero no te preocupes, vamos a orientarte en el ideal para lo que estás precisando.</p>
         </div>
         <div class="type__courses">
-            <h2>Tipos de cursos de programación y para qué sirven</h2>
-            <p>Para encontrar el curso indicado deberemos comenzar por conocer qué nos motiva aprender.</p>
+            <h2 class="courses__title">Tipos de cursos de programación y para qué sirven</h2>
+            <p class="courses__p">Para encontrar el curso indicado deberemos comenzar por conocer qué nos motiva aprender.</p>
         </div>
     </header>
     <main>
         <section class="start">
+                <div class="beginnings">
+                    <h2 class="card__title">Para aprender a Programar desde cero</h2>
+                    <p class="card__p">Son cursos orientado a personas sin experiencia previa en lenguajes de programación que desean adquirir conocimientos fundamentales. Lo más recomendable es que comiences con los lenguajes más ampliamente utilizados, que te darán una gran flexibilidad para continuar en la especialidad que elijas luego continuar desarrollándote.</p>
+                </span>
             <div class="card">
-                <h2>Para aprender a Programar desde cero</h2>
-                <p>Son cursos orientado a personas sin experiencia previa en lenguajes de programación que desean adquirir conocimientos fundamentales. Lo más recomendable es que comiences con los lenguajes más ampliamente utilizados, que te darán una gran flexibilidad para continuar en la especialidad que elijas luego continuar desarrollándote.</p>
                 <!--La parte superior de bloque introduce el concepto y una imagen -->
                 <div class="card__desc">
-                    <div class="desc__title">
-                        <h3>Introduccion a pyhton</h3>
-                        <p>Es el lenguaje más claro e intuitivo con el que podrás desarrollar todo tipo de aplicaciones, desde sitios web hasta complejos procesamiento de datos.</p>
+                    <div class="desc__intro">
+                        <h2 class="desc__title">Introduccion a pyhton</h2>
+                        <p class="desc__p">Es el lenguaje más claro e intuitivo con el que podrás desarrollar todo tipo de aplicaciones, desde sitios web hasta complejos procesamiento de datos.</p>
                     </div>
                     <div class="container">
                         <img class="desc__img" src="assert/python-logoPe.jpg" alt="">
@@ -37,10 +45,10 @@
                     <div class="footer__details">
                         <div class="details__block">
                             <div class="barra"></div>
-                            <div class="barra"></div>
-                            <div class="barra"></div>
-                            <div class="barra"></div>
-                            <p class="paragraph">
+                            <div class="barra barra__delete"></div>
+                            <div class="barra barra__delete"></div>
+                            <div class="barra barra__delete"></div>
+                            <p class="paragraph paragraph__block">
                                 Nivel: 
                                 <br>
                                 <strong>Principiante</strong>
@@ -49,7 +57,7 @@
                     </div>
 
                     <div class="footer__duration">
-                        <p class="paragraph">
+                        <p class="paragraph paragraph__duration">
                                 Duracion: 
                                 <br>
                                 <strong>4 Semanas</strong>
@@ -61,16 +69,17 @@
                 </div>
             </div>
         </section>
+        
     </main>
     <footer>
         <div class="copyright">
-            <p class="copyright__p"></p>
+            <p class="copyright__p">© 2025 CursosU. Todos los derechos reservados.</p>
         </div>
         <ul id="about" class="info">
-            <li class="info-item">Correo</li>
-            <li class="info-item">Colaboradores</li>
-            <li class="info-item">Charlas gratuitas</li>
-            <li class="info-item">Trabajos realizados</li>
+            <li class="info__item">Correo</li>
+            <li class="info__item">Colaboradores</li>
+            <li class="info__item">Charlas gratuitas</li>
+            <li class="info__item">Trabajos realizados</li>
         </ul>
     </footer>
 </body>
