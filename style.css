@@ -9,7 +9,7 @@ body{
     background-color: #f5f8fa;
 }
 
-/*Estilos en la introduccion*/
+/*-------------------Estilos en la introduccion: Start-------------------*/
 .container__into{
     display: flex;
     align-items: center;
@@ -72,7 +72,10 @@ h1{
     color:rgb(27, 27, 27) ;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-/*Estilo a seccion Principal*/
+/*-------------------Estilos en la introduccion: END-------------------*/
+
+/*-------------------Estilo a seccion inicial: START-------------------*/
+
 .start{
     width: 100%;
     padding: 8px;
@@ -103,16 +106,18 @@ h1{
 
 }
 
-/*Seccion de la carta que muestra el curso*/
+/*-------------------Estilo a seccion inicial: END--------------------*/
+
+
+/*-------------------Seccion de la carta que muestra el curso: START--------------------*/
 
 .card{
     background-color: #ffffff;
+    padding: 12px;
     width: 95%;
-    height: auto;
-    /*height:20rem;*/ 
+    min-height: 400px;
     margin: auto;
     margin-bottom: 2rem;
-    padding: 12px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -120,13 +125,20 @@ h1{
     flex-direction: column;
     border: 2px solid  rgb(0, 2, 95);
     border-top: 10px solid rgb(0, 2, 95) ;
+    transition: outline .3s ease;
+    cursor: pointer;
 }
+
+.card:hover{
+    outline: 5px solid rgb(0, 2, 95) ;
+}
+
 
 .beginnings{
     width: 98%;
-    padding: 12px;
     height: auto;
     margin: auto;
+    padding: 12px;
 }
 
 .card__title{
@@ -155,11 +167,10 @@ h1{
 }
 
 .container{
-    position: relative;
     margin: 10px;
     width: 5rem;
     height: 5rem;
-    flex-shrink: 0;
+    flex-shrink: 0;/*Conserva el tamaño de la imagen*/
 }
 
 .desc__img{
@@ -176,8 +187,10 @@ h1{
 .desc__p{
     font-size: 19px;
 }
+/*-------------------Seccion de la carta que muestra el curso: END--------------------*/
 
-/*Desarrollo de footer en la carta*/
+
+/*--------------------*Desarrollo de footer en la carta: START--------------------*/
 .card__footer{
     width: 100%;
     padding: 0;
@@ -240,6 +253,15 @@ h1{
     background-color: #3498DB;
     width: 100%;
     height: 50px;
+    transition: background-color .3s ease;
+}
+
+.more:hover{
+    background-color: #1869a0;
+}
+
+.more:active{
+    background-color: #07283f;
 }
 
 /*Footer de la pagina */
@@ -277,3 +299,4 @@ footer{
     font-size: 19px;
     padding: 9px;    
 }
+/*--------------------*Desarrollo de footer en la carta: END--------------------*/
